@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://www.youtube.com/s/desktop/1802aa0e/img/favicon_32x32.png" sizes="32x32">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css.css">
+  <!-- <link rel="preload" as="audio" href="./assests/mike.mp3"> -->
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="linear-bg has-animation"></div>
+    <audio class="audio hidden" oncanplaythrough="this.classList.add('is-loaded'); console.log('inline:oncanplaythrough')">
+      <source src="./assests/mike.mp3" type="audio/mpeg">
+    </audio>
+    <div class="logo-wrapper">
+      <img class="logo-png has-animation" data-wow-delay="30s" src="assests/sign.png" alt="kaipa" width="800" height="495" loading="lazy">
+      <div class="logo" data-wow-delay="2s">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 910">
+          <g id="Layer_2" data-name="Layer 2">
+            <path class="st0 has-animation" d="M90.6,350.9c24.2-17.8,78.4-53.6,91.7-13s-70.6,84.7-106,80.2c-35.5-4.4-83.2-28-69.9-95.9
+            S152,200.3,215,242s139.8,106.9,212.7,92.9s119.7-18.8,183.1-40.6c63.4-21.8,145.2-41,136.4-15.7
+            c-8.9,25.3-58.6,164.2-101.9,181.6s-84.6,22.5-121.7-20.5s37.8-66.6,56.3-66.6s70.6,17.1,0,42" />
+            <path class="st1 has-animation"
+              d="M995.4,279.2c-36.8-11.3-102.6-34.5-158.5-8.5c-55.9,25.9-92.7,77.5-109.4,82.3s12.3-26.6,15.3-14.7
+            c3.1,11.9,45.3,147.1,105,157s98.9,6.5,121-72.4c22.2-78.9-97.5-113.7-147.6-90.1c-50.1,23.6-96.8,129,24.2,169.7" />
+            <path class="st2 has-animation"
+              d="M998.3,280c0,0-107.1-20.2-73.9-129.8S1113.1-26,1235.3,21.6s206.1,154.6,64.9,295s-445.9,308.2-613.9,299
+            s-168.8-35.3-138.8-40.7c29.9-5.4,149.6-10.8,246.2,5.4s491.7,27.7,567.7,19.2c75.9-8.4,203.3-22.3,234.7-35.3" />
+            <line class="st3 has-animation" x1="1093.6" y1="143" x2="1014.9" y2="908" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="button-wrapper">
+      <span class="play-button">
+        <span class="paused">loading...</span>
+        <span class="running">pause</span>
+      </span>
+    </div>
+    <div class="lyric-wrapper">
+      <div class="lyric">
+        <p class="first-line wow fade-in" data-wow-duration="6s" data-wow-delay="2s"><span class="orange">Hey! Fat Man.</span></p>
+        <!-- 22-->
+        <p class="line wow fade-in" data-wow-duration="1s" data-wow-delay="22s">Hey! Fat Man.</p>
+        <!-- 23-->
+        <p class="line wow fade-in" data-wow-duration="2s">Những ngày qua đối với mày thật sự rất vất vả</p>
+        <!-- 25-->
+        <p class="line wow fade-in" data-wow-duration="3s">Và rồi cuộc sống sẽ có những lúc thăng trầm vui buồn rồi vấp ngã</p>
+        <!-- 28-->
+        <p class="line wow fade-in" data-wow-duration="2s">Okey! Tao biết chứ</p>
+        <!-- 30-->
+        <p class="line wow fade-in" data-wow-duration="1s">Nhưng rồi tao phải làm gì đây?</p>
+        <!-- 31-->
+        <p class="line wow fade-in" data-wow-duration="2s">Để giúp được mày lúc này khi hai bàn tay tao vẫn đang <span class="orange">empty</span></p>
+        <!-- 33-->
+        <p class="line wow fade-in" data-wow-duration="4s">Tao <span class="orange">sorry!</span> vì đã từng hứa sẽ giúp mày khi gặp khó khăn</p>
+        <!-- 37-->
+        <p class="line wow fade-in" data-wow-duration="2s">Cuộc sống ngày mai có ai dám định nghĩa hai chữ chắc chắn</p>
+        <!-- 39-->
+        <p class="line wow fade-in" data-wow-duration="3s">Khi tao gặp mày có lẽ cũng chính là một sự may mắn</p>
+        <!-- 42-->
+        <p class="line wow fade-in" data-wow-duration="3s">Để rồi phút cuối nhìn mày ra đi tao chỉ biết ngồi đây thầm lặng</p>
+        <!-- 45-->
+        <p class="line wow fade-in" data-wow-duration="3s">Vì khi mày ra đi rồi bên cạnh không biết bạn thân sẽ còn ai</p>
+        <!-- 48-->
+        <p class="line wow fade-in" data-wow-duration="3s">Khi ánh bình minh vừa lên chỉ thấy dấu chân mày còn lại</p>
+        <!-- 51-->
+        <p class="line wow fade-in" data-wow-duration="2s">Cũng như con thuyền cặp bến lâu nay nhưng không có người lái</p>
+        <!-- 53-->
+        <p class="line wow fade-in" data-wow-duration="3s"><span class="orange">Please don't ask me why...</span> đừng bắt tao phải đưa ra một lý do</p>
+        <!-- 56-->
+        <p class="line wow fade-in" data-wow-duration="3s">Cuộc sống bây giờ đâu phải kiếm được bạn tốt là dễ có!</p>
+        <!-- 59-->
+        <p class="line wow fade-in" data-wow-duration="1s"><span class="orange">And then fuck the life...</span></p>
+        <!-- 00-->
+        <p class="line wow fade-in" data-wow-duration="1s">Cuối cùng mày cũng phải ra đi</p>
+        <!-- 1-->
+        <p class="line wow fade-in" data-wow-duration="2s">Chỉ còn lại riêng tao... cây bút và <span class="orange">trang vở</span></p>
+        <!-- 3-->
+        <p class="line wow fade-in" data-wow-duration="4s">Nhưng không thể nào viết tiếp được nữa khi tao chỉ biết ngồi đây và <span class="orange">than thở</span></p>
+        <!-- 7-->
+        <p class="line wow fade-in" data-wow-duration="3s">Nếu có một ngày tao và mày không bao giờ gặp nhau nữa</p>
+        <!-- 10-->
+        <p class="line wow fade-in" data-wow-duration="2s">Kết thúc tình bạn lâu nay chỉ còn lại mây và khói lửa</p>
+        <!-- 12-->
+        <p class="line wow fade-in" data-wow-duration="2s">Vụt tắt đi bao hi vọng sau bao sấm chớp và cơn mưa</p>
+        <!-- 14-->
+        <p class="line wow fade-in" data-wow-duration="3s">Rồi sẽ ra sao khi tao và mày không còn anh em như ngày xưa</p>
+        <!-- 17-->
+        <p class="line wow fade-in" data-wow-duration="4s">Khi <span class="orange">mày</span> nghe bài nhạc này cũng chính là lúc <span class="orange">tao</span> trắng tay</p>
+        <!-- 21-->
+        <p class="line wow fade-in" data-wow-duration="2s">Mọi thứ đổi thay nhưng tao biết mày giả ngơ như chẳng thấy</p>
+        <!-- 23-->
+        <p class="line wow fade-in" data-wow-duration="3s">Vì đời là thế dù mày có la hét cũng đâu ai hay</p>
+        <!-- 26-->
+        <p class="line wow fade-in" data-wow-duration="3s">Và nên chấp nhận thực tế khi không còn ai đáng tin trên đời này</p>
+        <!-- 29-->
+        <p class="line wow fade-in" data-wow-duration="1s">Tao còn nhớ <span class="orange">ngày xưa</span></p>
+        <!-- 30-->
+        <p class="line wow fade-in" data-wow-duration="2s">Những ngày bây giờ có lẽ <span class="orange">không còn nữa</span></p>
+        <!-- 32-->
+        <p class="line wow fade-in" data-wow-duration="2s">Những chiều tan học về cũng nhau lội nước khi trời vẫn đang mưa</p>
+        <!-- 34-->
+        <p class="line wow fade-in" data-wow-duration="3s">Cùng nhau ngồi ăn bên lề đường...<br>cùng nhau ngồi chung một mái trường</p>
+        <!-- 37-->
+        <p class="line wow fade-in" data-wow-duration="3s">Và chưa bao giờ tao nghĩ có một ngày tao với mày <span class="orange">chia hai hướng</span></p>
+        <!-- 40-->
+        <p class="line wow fade-in" data-wow-duration="3s">Có những đêm thức trắng tao chỉ ngồi chờ mày online</p>
+        <!-- 43-->
+        <p class="line wow fade-in" data-wow-duration="2s">Ngồi đọc hết dòng <span class="orange">entry</span> mà sao bóng dáng mày chẳng thấy</p>
+        <!-- 45-->
+        <p class="line wow fade-in" data-wow-duration="3s">Nên rồi thôi đành vậy... cứ xem đó như là số phận</p>
+        <!-- 48-->
+        <p class="line wow fade-in" data-wow-duration="3s">Vì trời sắp đặt ra sao thì tao với mày cũng đành phải chấp nhận</p>
+        <!-- 51-->
+        <p class="line wow fade-in" data-wow-duration="3s">Khi mày đi cuộc sống của tao cũng chẳng có gì khác</p>
+        <!-- 54-->
+        <p class="line wow fade-in" data-wow-duration="2s">Ngoài những bài <span class="orange">rap</span> mấy đêm mất ngủ vì tao phải suy nghĩ</p>
+        <!-- 56-->
+        <p class="line wow fade-in" data-wow-duration="3s">Viết cho thằng bạn mà tao đã từng xem nó là tri kỷ</p>
+        <!-- 59-->
+        <p class="line wow fade-in" data-wow-duration="3s">Cũng như đường kim đã <span class="orange">xăm trên mình</span> thì không thể nào mà xóa đi</p>
+        <!-- 02-->
+        <p class="line wow fade-in" data-wow-duration="3s">Và những ký ức ngày xưa sẽ chẳng bao giờ được tìm thấy</p>
+        <!-- 5-->
+        <p class="line wow fade-in" data-wow-duration="3s">Một khi đã vứt đi rồi thì đừng quay lại và hối tiếc</p>
+        <!-- 8-->
+        <p class="line wow fade-in" data-wow-duration="2s">Thằng <span class="orange">Sam</span> ngày xưa và hôm nay đã có nhiều sự khác biệt</p>
+        <!-- 10-->
+        <p class="line wow fade-in" data-wow-duration="3s">Khép lại câu chuyện chưa đến hồi kết <span class="orange">nhưng</span> chẳng bao giờ được viết tiếp</p>
+        <!-- 13-->
+        <p class="line wow fade-in" data-wow-duration="3s">Nếu có một ngày tao và mày không bao giờ gặp nhau nữa</p>
+        <!-- 16-->
+        <p class="line wow fade-in" data-wow-duration="2s">Kết thúc tình bạn lâu nay chỉ còn lại mây và khói lửa</p>
+        <!-- 18-->
+        <p class="line wow fade-in" data-wow-duration="3s">Vụt tắt đi bao hi vọng sau bao sấm chớp và cơn mưa</p>
+        <!-- 21-->
+        <p class="line wow fade-in" data-wow-duration="3s">Rồi sẽ ra sao khi tao và mày không còn anh em như ngày xưa</p>
+        <!-- 24-->
+        <p class="line wow fade-in" data-wow-duration="2s">Khi mày nghe bài nhạc này cũng chính là lúc tao trắng tay</p>
+        <!-- 26-->
+        <p class="line wow fade-in" data-wow-duration="3s">Mọi thứ đổi thay nhưng tao biết mày giả ngơ như chẳng thấy</p>
+        <!-- 29-->
+        <p class="line wow fade-in" data-wow-duration="3s">Vì đời là thế dù mày có la hét cũng đâu ai hay</p>
+        <!-- 32-->
+        <p class="line wow fade-in" data-wow-duration="3s">Và nên chấp nhận thực tế khi không còn ai đáng tin trên đời này</p>
+        <!-- 35-->
+        <p class="line wow fade-in" data-wow-duration="3s">Lần cuối tao chỉ muốn nói cuộc sống này <span class="orange">đừng bao giờ</span> tin ai hết</p>
+        <!-- 38-->
+        <p class="line wow fade-in" data-wow-duration="2s"><span class="orange">Cho dù</span> mày còn đang thở... <span class="orange">hay là</span> phút cuối mọi thứ đến hồi kết</p>
+        <!-- 40-->
+        <p class="line wow fade-in" data-wow-duration="3s">Đừng để một ngày bị sa chân... dù chỉ là một lần vấp ngã</p>
+        <!-- 43-->
+        <p class="line wow fade-in" data-wow-duration="3s"><span class="orange">Và khi mày nhìn lại hai bàn tay có lẽ đã mất hết tất cả</span></p>
+        <!-- 46-->
+        <p class="line wow fade-in" data-wow-duration="3s">Nếu có một ngày tao và mày không bao giờ gặp nhau nữa</p>
+        <!-- 49-->
+        <p class="line wow fade-in" data-wow-duration="2s">Kết thúc tình bạn lâu nay chỉ còn lại mây và khói lửa</p>
+        <!-- 51-->
+        <p class="line wow fade-in" data-wow-duration="3s">Vụt tắt đi bao hi vọng sau bao sấm chớp và cơn mưa</p>
+        <!-- 54-->
+        <p class="line wow fade-in" data-wow-duration="3s">Rồi sẽ ra sao khi tao và mày không còn anh em như ngày xưa</p>
+        <!-- 57-->
+        <p class="line wow fade-in" data-wow-duration="3s">Khi mày nghe bài nhạc này cũng chính là lúc tao trắng tay</p>
+        <!-- 00-->
+        <p class="line wow fade-in" data-wow-duration="3s">Mọi thứ đổi thay nhưng tao biết mày giả ngơ như chẳng thấy</p>
+        <!-- 03-->
+        <p class="line wow fade-in" data-wow-duration="2s">Vì đời là thế dù mày có la hét cũng đâu ai hay</p>
+        <!-- 05-->
+        <p class="line wow fade-in" data-wow-duration="4s">Và nên chấp nhận thực tế khi không còn ai đáng tin trên đời này...</p>
+      </div>
+    </div>
+    <div class="music-bg">
+      <img src="" alt="&nbsp;" width="1920" height="614" loading="lazy">
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script class="custom-script" src="./js.js"></script>
+</body>
+
+</html>
